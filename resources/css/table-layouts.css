@@ -1,0 +1,32 @@
+/*
+ * The card view (a table with the `ftl-cards` class) and the toolbar's layout switcher, on top of Filament's own
+ * content grid styles, in the panel's light and dark themes.
+ */
+.ftl-switcher{display:inline-grid}
+
+.ftl-cards .fi-ta-content-grid .fi-ta-record{flex-direction:column;align-items:stretch;overflow:hidden;padding:0}
+.ftl-cards .fi-ta-content-grid .fi-ta-record .fi-ta-record-content-ctn{padding:0;gap:0}
+.ftl-cards .fi-ta-content-grid .fi-ta-record .fi-ta-record-content,
+.ftl-cards .fi-ta-content-grid .fi-ta-record.fi-ta-record-with-content-prefix .fi-ta-record-content,
+.ftl-cards .fi-ta-content-grid .fi-ta-record.fi-ta-record-with-content-suffix .fi-ta-record-content{padding:0}
+.ftl-cards .fi-ta-content-grid .fi-ta-record .fi-ta-actions,
+.ftl-cards .fi-ta-content-grid .fi-ta-record.fi-ta-record-with-content-prefix .fi-ta-actions,
+.ftl-cards .fi-ta-content-grid .fi-ta-record.fi-ta-record-with-content-suffix .fi-ta-actions{padding:0 1rem 1rem}
+.ftl-cards .fi-ta-content-grid .fi-ta-record.fi-selected{box-shadow:0 0 0 2px var(--primary-600)}
+.dark .ftl-cards .fi-ta-content-grid .fi-ta-record.fi-selected{box-shadow:0 0 0 2px var(--primary-500)}
+
+/* The bulk select checkbox sits over the top left corner of the card, on the image when there is one. */
+.ftl-cards .fi-ta-content-grid .fi-ta-record > .fi-ta-record-checkbox{position:absolute;top:.75rem;inset-inline-start:.75rem;z-index:1;margin:0;box-shadow:0 1px 3px rgb(0 0 0 / .25)}
+.ftl-cards .fi-ta-content-grid .fi-ta-record > .fi-ta-record-checkbox:not(:checked){background-color:#fff}
+.dark .ftl-cards .fi-ta-content-grid .fi-ta-record > .fi-ta-record-checkbox:not(:checked){background-color:var(--gray-900)}
+.ftl-cards .fi-ta-content-grid .fi-ta-record > .fi-ta-record-checkbox ~ .fi-ta-record-content-ctn .ftl-card:not(:has(.ftl-card-image)) .ftl-card-details{padding-top:2.5rem}
+
+.ftl-card{display:flex;flex-direction:column;height:100%}
+.ftl-card-image{overflow:hidden;flex:none;background:var(--gray-100)}
+.dark .ftl-card-image{background:rgb(255 255 255 / .05)}
+.ftl-card-image > *,
+.ftl-card-image .fi-ta-col,
+.ftl-card-image .fi-ta-image,
+.ftl-card-image .fi-ta-image > a{display:block;width:100%;height:100%}
+.ftl-card-image .fi-ta-image img{display:block;width:100% !important;height:100% !important;max-width:none;border-radius:0;object-fit:cover}
+.ftl-card-details{display:flex;flex-direction:column;gap:.5rem;padding:1rem}
