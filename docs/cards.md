@@ -46,7 +46,9 @@ The image covers the area at the top of the card, cropped to fit. Its height is 
 Card::make([...])->image('cover')->imageHeight('16rem');
 ```
 
-Without an image, the card starts with its details.
+Without an image, the card starts with its details:
+
+![Tasks as cards without images, each starting with its status and priority](images/cards-without-images.webp)
 
 ## The grid
 

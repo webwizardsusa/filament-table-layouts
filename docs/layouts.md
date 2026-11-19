@@ -30,10 +30,14 @@ $table->columns([...])->card($card)->availableLayouts(TableLayout::Table);
 
 The methods can be called in any order. Offering `TableLayout::Card` without a card throws a `LogicException`.
 
+![The products table in the table view, with the layout switcher at the end of its toolbar](images/table.webp)
+
 ## The switcher
 
 When a table offers more than one layout, the switcher sits at the end of its toolbar, after the search field,
 filters and column manager. The toolbar is kept shown for it even when the table has nothing else there.
+
+![The switcher next to the search field, filters and column manager, with the table view pressed](images/switcher.webp)
 
 ## Remembering the layout
 
