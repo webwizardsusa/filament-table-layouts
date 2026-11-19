@@ -1,7 +1,7 @@
 ---
 title: Cards
 weight: 40
-description: Define the card: its image, its details and the grid it is laid out in.
+description: Define the card’s image, its details and the grid it is laid out in.
 ---
 
 A `Card` is a column layout, like Filament's `Stack` or `Split`: its schema is the columns and layouts shown under the
