@@ -1,0 +1,64 @@
+{
+    "name": "webwizardsusa/filament-table-layouts",
+    "description": "Let people switch a Filament table between a table and a card grid, with an image at the top of each card, remembered per table.",
+    "keywords": [
+        "laravel",
+        "filamentphp",
+        "filament",
+        "filament-plugin",
+        "table",
+        "cards",
+        "grid",
+        "webwizardsusa"
+    ],
+    "homepage": "https://github.com/webwizardsusa/filament-table-layouts",
+    "support": {
+        "issues": "https://github.com/webwizardsusa/filament-table-layouts/issues",
+        "source": "https://github.com/webwizardsusa/filament-table-layouts"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jamie Holly",
+            "email": "jamie@webwizardsusa.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "filament/filament": "^5.0",
+        "spatie/laravel-package-tools": "^1.92"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^11.0",
+        "pestphp/pest": "^5.2",
+        "pestphp/pest-plugin-laravel": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webwizardsusa\\TableLayouts\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webwizardsusa\\TableLayouts\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webwizardsusa\\TableLayouts\\TableLayoutsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
