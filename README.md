@@ -1,5 +1,8 @@
 # Filament Table Layouts
 
+> **Under active development.** This package is still changing and may not be ready for production use yet. Until
+> 1.0, a minor release can include breaking changes, so check the changelog before you upgrade.
+
 ![Table Layouts: a Filament table shown as rows and as a grid of cards with images](https://raw.githubusercontent.com/webwizardsusa/filament-table-layouts/main/art/table-layouts-banner.webp)
 
 [![Latest version on Packagist](https://img.shields.io/packagist/v/webwizardsusa/filament-table-layouts.svg)](https://packagist.org/packages/webwizardsusa/filament-table-layouts)
