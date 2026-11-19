@@ -1,7 +1,7 @@
 ---
 title: Cards
 weight: 40
-description: Define the card: its image, its details and the grid it is laid out in.
+description: Define the card’s image, its details and the grid it is laid out in.
 ---
 
 A `Card` is a column layout, like Filament's `Stack` or `Split`: its schema is the columns and layouts shown under the
@@ -46,7 +46,9 @@ The image covers the area at the top of the card, cropped to fit. Its height is 
 Card::make([...])->image('cover')->imageHeight('16rem');
 ```
 
-Without an image, the card starts with its details.
+Without an image, the card starts with its details:
+
+![Tasks as cards without images, each starting with its status and priority](images/cards-without-images.webp)
 
 ## The grid
 

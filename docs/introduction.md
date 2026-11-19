@@ -11,6 +11,8 @@ for each table.
 Each card has an optional image across the top, then the details, then the record actions. When the table has bulk
 actions, the select checkbox sits over the card's top left corner.
 
+![Products as cards, each with its image across the top, two of them selected for a bulk action](images/cards.webp)
+
 ## A short example
 
 ```php
