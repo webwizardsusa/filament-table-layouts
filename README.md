@@ -7,6 +7,9 @@
 
 [![Latest version on Packagist](https://img.shields.io/packagist/v/webwizardsusa/filament-table-layouts.svg)](https://packagist.org/packages/webwizardsusa/filament-table-layouts)
 [![Tests](https://github.com/webwizardsusa/filament-table-layouts/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/webwizardsusa/filament-table-layouts/actions/workflows/tests.yml)
+[![Total downloads](https://img.shields.io/packagist/dt/webwizardsusa/filament-table-layouts.svg)](https://packagist.org/packages/webwizardsusa/filament-table-layouts/stats)
+[![PHP version](https://img.shields.io/packagist/dependency-v/webwizardsusa/filament-table-layouts/php.svg)](https://packagist.org/packages/webwizardsusa/filament-table-layouts)
+[![Filament version](https://img.shields.io/packagist/dependency-v/webwizardsusa/filament-table-layouts/filament/filament.svg?label=Filament)](https://filamentphp.com)
 [![License](https://img.shields.io/packagist/l/webwizardsusa/filament-table-layouts.svg)](https://github.com/webwizardsusa/filament-table-layouts/blob/main/LICENSE.md)
 
 Let people switch a Filament table between rows and a grid of cards, with a switcher in the table's toolbar. Each card
